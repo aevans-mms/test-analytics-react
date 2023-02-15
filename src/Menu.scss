@@ -1,0 +1,17 @@
+.Menu {
+	border: 2px dotted #333;
+	background-color: #DDD;
+	color: #333;
+  
+	min-height: 100vh;
+	min-width: 50vw;
+	box-sizing: border-box;
+  
+	display: flex;
+	flex-direction: column;
+}
+
+
+.Menu > * {
+	padding: 20px 40px;
+  }

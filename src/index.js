@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Menu from './Menu';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+const AppRoot = ReactDOM.createRoot(document.getElementById('App'));
+AppRoot.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>
+);
+
+
+const MenuRoot = ReactDOM.createRoot(document.getElementById('Menu'));
+MenuRoot.render(
+  <React.StrictMode>
+    <Menu />
   </React.StrictMode>
 );
 

@@ -1,0 +1,33 @@
+.Code {
+	pre {
+		border: 2px dashed #AAA;
+		border-radius: 0.5em;
+		padding: 1em;
+		// margin: 0;
+	}
+
+	.nocopy {
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.language {
+		font-family: "Segoe UI", "Helevetica Neue", sans-serif;
+		font-size: 1em;
+		font-weight: lighter;
+		color: #FFF;
+		opacity: 0.75;
+		z-index: 1;
+		
+		text-align: right;
+		text-transform: initial;
+		text-decoration: initial;
+		
+		position: relative;
+		top: 2em;
+		right: 1em;
+	}
+}  
