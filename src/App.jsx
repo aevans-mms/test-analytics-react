@@ -20,7 +20,7 @@ function App() {
 			
 			<header className="App-header">
 				<TALogo/>		
-				<div> Header </div>
+				
 			</header>
 
 		
